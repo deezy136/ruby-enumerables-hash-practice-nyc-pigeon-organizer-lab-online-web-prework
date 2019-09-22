@@ -6,7 +6,7 @@ final_list = Hash.new
      names.each do |name|
        final_list[name] = {:color =>[], :gender => [], :lives =>[]}
        
-     end 
+     
  end 
 end
 end 
