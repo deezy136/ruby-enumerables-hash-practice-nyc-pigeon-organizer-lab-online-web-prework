@@ -12,3 +12,14 @@ end
 end
 final_list
 end 
+
+pigeon_keys = final.keys
+  data[:color].each do |bird_color, name|
+    name.each do |bird_name|
+      pigeon_keys.each do |item|
+        if bird_name === item
+          final[item][:color] << bird_color.to_s
+        end 
+      end 
+    end 
+  end 
