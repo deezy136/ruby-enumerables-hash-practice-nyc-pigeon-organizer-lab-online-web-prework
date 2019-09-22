@@ -26,7 +26,7 @@ pigeon_keys = final_list.keys
     type.each do |bird_name|
       x.each do |item|
         if bird_name === item
-          final[item][:gender] << gender.to_s
+          final_list[item][:gender] << gender.to_s
         end 
       end 
     end 
@@ -35,7 +35,7 @@ pigeon_keys = final_list.keys
     name.each do |bird_name|
       x.each do |item|
         if bird_name === item
-          final[item][:lives] << location
+          final_list[item][:lives] << location
         end 
       end 
     end 
