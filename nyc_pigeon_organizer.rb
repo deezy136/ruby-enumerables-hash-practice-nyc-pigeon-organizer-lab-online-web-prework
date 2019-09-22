@@ -11,7 +11,7 @@ final_list = Hash.new
 end
 end
 
-pigeon_keys = final.keys
+pigeon_keys = final_list.keys
   data[:color].each do |bird_color, name|
     name.each do |bird_name|
       pigeon_keys.each do |item|
